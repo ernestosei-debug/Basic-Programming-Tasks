@@ -1,3 +1,4 @@
+#Simple implementation of recursion
 def func(x):
     if(x == 0):
         print(0)
