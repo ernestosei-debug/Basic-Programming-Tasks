@@ -1,6 +1,6 @@
 //Write a function to reverse a string
 
-//Using built-in functions
+//using a built-in function
 let rev1 = s => {
     var reverse1 = "";
     reverse1 = s.split('').reverse().join("");
@@ -8,7 +8,7 @@ let rev1 = s => {
 }
 console.log(rev1("Ernest"));
 
-//Decrementing for loop
+//using a decrementing for loop
 let rev2 = (s) => {
     reverse2 = "";
     for(j = s.length - 1; j >= 0; --j){
