@@ -1,8 +1,8 @@
-//Finding the element with the greatest value
+//to find the element with the greatest value
 
 arr = [42, 13, 25, 84, 8];
 
-//Using a built-in functions
+//using a built-in function
 Math.max(...arr);
 sortedArr = arr.sort().pop();
 
