@@ -5,4 +5,3 @@ def func(x):
     else:
         print(x)
         func(x - 1)
-func(10)
